@@ -20,10 +20,11 @@ body {
     top: 0;
     bottom: 0;
     opacity: 0.80;
-    background: linear-gradient(#819599 50%, #c1d0d4 50%) display:table;
+    background: linear-gradient(#819599 30%, #c1d0d4 70%);
     width: 100%;
     height: 100%;
     z-index: 9;
+    font-family: 'New Tegomin', serif;
 }
 
 .test {
@@ -32,7 +33,8 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-.school{
+
+.school {
     list-style: none;
     font-family: fantasy;
     position: absolute;
@@ -41,7 +43,8 @@ body {
     z-index: 10;
     cursor: pointer;
 }
-.Work{
+
+.Work {
     float: left;
     color: #000;
     padding-top: 5px;
@@ -51,7 +54,8 @@ body {
     font-family: cursive;
     font-size: 20px;
 }
-.Work:hover{
+
+.Work:hover {
     background-color: #a1c9d1;
 }
 
@@ -95,4 +99,16 @@ p {
     margin: 25px auto;
     font-size: 17px;
     line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: #b4d6d6;
+}
+
+html {
+    scroll-behavior: smooth;
 }
